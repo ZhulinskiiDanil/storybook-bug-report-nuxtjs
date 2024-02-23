@@ -1,75 +1,17 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
+# I also have problem with storybook initialization
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npx storybook-nuxt init
 ```
 
-## Development Server
+<img src="./init-error.png" />
 
-Start the development server on `http://localhost:3000`:
+# I had to install the modules myself
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+npm i -D @nuxtjs/storybook @storybook-vue/nuxt @storybook-vue/nuxt-storybook @storybook/addon-interactions @storybook/addon-links @storybook/builder-vite @storybook/testing-library @storybook/vue3 storybook
 ```
 
-## Production
+# Then there was this error
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+<img src="./final-error.png" />
